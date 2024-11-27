@@ -1,7 +1,7 @@
 [![chisel](https://snapcraft.io/chisel/badge.svg)](https://snapcraft.io/chisel)
-[![Snap](https://github.com/canonical/chisel/actions/workflows/snap.yml/badge.svg?event=release)](https://github.com/canonical/chisel/actions/workflows/snap.yml)
-[![Build](https://github.com/canonical/chisel/actions/workflows/build.yml/badge.svg)](https://github.com/canonical/chisel/actions/workflows/build.yml)
-[![Tests](https://github.com/canonical/chisel/actions/workflows/tests.yaml/badge.svg)](https://github.com/canonical/chisel/actions/workflows/tests.yaml)
+[![Snap](https://github.com/lorenzo-medici/chisel/actions/workflows/snap.yml/badge.svg?event=release)](https://github.com/lorenzo-medici/chisel/actions/workflows/snap.yml)
+[![Build](https://github.com/lorenzo-medici/chisel/actions/workflows/build.yml/badge.svg)](https://github.com/lorenzo-medici/chisel/actions/workflows/build.yml)
+[![Tests](https://github.com/lorenzo-medici/chisel/actions/workflows/tests.yaml/badge.svg)](https://github.com/lorenzo-medici/chisel/actions/workflows/tests.yaml)
 
 # Chisel
 
@@ -44,7 +44,7 @@ In the end, it’s like having a slice of Ubuntu - get *just what you need*. You
 To install the latest version of Chisel, run the following command:
 
 ```bash
-go install github.com/canonical/chisel/cmd/chisel@latest
+go install github.com/lorenzo-medici/chisel/cmd/chisel@latest
 ```
 
 Chisel is invoked using `chisel <command>`. To get more information:
@@ -56,7 +56,7 @@ Chisel is invoked using `chisel <command>`. To get more information:
 
 ### Example command
 
-Chisel relies on a [database of slices](https://github.com/canonical/chisel-releases) that are indexed per Ubuntu release.
+Chisel relies on a [database of slices](https://github.com/lorenzo-medici/chisel-releases) that are indexed per Ubuntu release.
 
 ```bash
 chisel cut --release ubuntu-22.04 --root myrootfs/ libgcc-s1_libs libssl3_libs
@@ -65,7 +65,7 @@ chisel cut --release ubuntu-22.04 --root myrootfs/ libgcc-s1_libs libssl3_libs
 In this example, Chisel would look into the Ubuntu Jammy archives, fetch the
 provided packages and install only the desired slices into the *myrootfs*
 folder, according to the slice definitions available in the
-["ubuntu-22.04" chisel-releases branch](<https://github.com/canonical/chisel-releases/tree/ubuntu-22.04>).
+["ubuntu-22.04" chisel-releases branch](<https://github.com/lorenzo-medici/chisel-releases/tree/ubuntu-22.04>).
 
 ## Support for Pro archives
 > [!IMPORTANT]
@@ -116,7 +116,7 @@ The location of the credentials can be configured using the environment variable
 As mentioned above, Chisel relies on **package slices**. These slices need to
 be defined prior to the execution of the `chisel` command.
 
-By default, Chisel will look into its central [chisel-releases](https://github.com/canonical/chisel-releases)
+By default, Chisel will look into its central [chisel-releases](https://github.com/lorenzo-medici/chisel-releases)
 database, where package slices are defined and indexed by Ubuntu release. A
 release is identified by the branch name. For example:
 
@@ -125,7 +125,7 @@ chisel cut --release ubuntu-22.10 ...
 ```
 
 will tell Chisel to look for a `chisel.yaml` file in the "ubuntu-22.10" branch
-of the [chisel-releases](https://github.com/canonical/chisel-releases)
+of the [chisel-releases](https://github.com/lorenzo-medici/chisel-releases)
 repository. This file will in turn instruct Chisel to fetch the requested
 package slices, as defined in the same branch, from the corresponding Kinetic
 release in the Ubuntu archives.
@@ -271,7 +271,7 @@ slices:
 ```
 
 To find more examples of real slice definitions files (and contribute your own),
-please go to <https://github.com/canonical/chisel-releases>.
+please go to <https://github.com/lorenzo-medici/chisel-releases>.
 
 ##### Path kinds
 

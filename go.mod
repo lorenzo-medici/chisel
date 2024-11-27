@@ -1,4 +1,4 @@
-module github.com/canonical/chisel
+module github.com/lorenzo-medici/chisel
 
 go 1.21
 

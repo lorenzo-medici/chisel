@@ -5,7 +5,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/canonical/chisel/internal/scripts"
+	"github.com/lorenzo-medici/chisel/internal/scripts"
 )
 
 func Test(t *testing.T) { TestingT(t) }

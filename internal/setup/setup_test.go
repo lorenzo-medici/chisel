@@ -9,8 +9,8 @@ import (
 	. "gopkg.in/check.v1"
 	"gopkg.in/yaml.v3"
 
-	"github.com/canonical/chisel/internal/setup"
-	"github.com/canonical/chisel/internal/testutil"
+	"github.com/lorenzo-medici/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 )
 
 var (

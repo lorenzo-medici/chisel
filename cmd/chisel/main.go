@@ -12,11 +12,11 @@ import (
 	"github.com/jessevdk/go-flags"
 	"golang.org/x/term"
 
-	"github.com/canonical/chisel/internal/archive"
-	"github.com/canonical/chisel/internal/deb"
-	"github.com/canonical/chisel/internal/setup"
-	"github.com/canonical/chisel/internal/slicer"
-	//"github.com/canonical/chisel/internal/logger"
+	"github.com/lorenzo-medici/chisel/internal/archive"
+	"github.com/lorenzo-medici/chisel/internal/deb"
+	"github.com/lorenzo-medici/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/slicer"
+	//"github.com/lorenzo-medici/chisel/internal/logger"
 )
 
 var (

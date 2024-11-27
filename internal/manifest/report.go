@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/canonical/chisel/internal/fsutil"
-	"github.com/canonical/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/fsutil"
+	"github.com/lorenzo-medici/chisel/internal/setup"
 )
 
 type ReportEntry struct {

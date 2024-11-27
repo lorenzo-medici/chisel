@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/canonical/chisel/internal/pgputil"
+	"github.com/lorenzo-medici/chisel/internal/pgputil"
 )
 
 type PGPKeyData struct {

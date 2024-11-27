@@ -3,10 +3,10 @@ package main_test
 import (
 	. "gopkg.in/check.v1"
 
-	"github.com/canonical/chisel/internal/setup"
-	"github.com/canonical/chisel/internal/testutil"
+	"github.com/lorenzo-medici/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 
-	chisel "github.com/canonical/chisel/cmd/chisel"
+	chisel "github.com/lorenzo-medici/chisel/cmd/chisel"
 )
 
 type findTest struct {

@@ -14,11 +14,11 @@ import (
 	"github.com/klauspost/compress/zstd"
 	. "gopkg.in/check.v1"
 
-	"github.com/canonical/chisel/internal/archive"
-	"github.com/canonical/chisel/internal/manifest"
-	"github.com/canonical/chisel/internal/setup"
-	"github.com/canonical/chisel/internal/slicer"
-	"github.com/canonical/chisel/internal/testutil"
+	"github.com/lorenzo-medici/chisel/internal/archive"
+	"github.com/lorenzo-medici/chisel/internal/manifest"
+	"github.com/lorenzo-medici/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/slicer"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 )
 
 var (
@@ -1413,7 +1413,7 @@ var slicerTests = []slicerTest{{
 			// strings.TrimLeft() instead strings.TrimPrefix() to determine a
 			// relative path. Since TrimLeft takes in a cutset instead of a
 			// prefix, the desired relative path was not produced.
-			// See https://github.com/canonical/chisel/pull/145.
+			// See https://github.com/lorenzo-medici/chisel/pull/145.
 			testutil.Dir(0755, "./foo-bar/"),
 		}),
 	}},

@@ -5,9 +5,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/canonical/chisel/internal/fsutil"
-	"github.com/canonical/chisel/internal/manifest"
-	"github.com/canonical/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/fsutil"
+	"github.com/lorenzo-medici/chisel/internal/manifest"
+	"github.com/lorenzo-medici/chisel/internal/setup"
 )
 
 var oneSlice = &setup.Slice{

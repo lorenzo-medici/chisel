@@ -10,7 +10,7 @@ import (
 	"go.starlark.net/resolve"
 	"go.starlark.net/starlark"
 
-	"github.com/canonical/chisel/internal/fsutil"
+	"github.com/lorenzo-medici/chisel/internal/fsutil"
 )
 
 func init() {

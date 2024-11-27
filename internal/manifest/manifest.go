@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/canonical/chisel/internal/archive"
-	"github.com/canonical/chisel/internal/jsonwall"
-	"github.com/canonical/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/archive"
+	"github.com/lorenzo-medici/chisel/internal/jsonwall"
+	"github.com/lorenzo-medici/chisel/internal/setup"
 )
 
 const Schema = "1.0"

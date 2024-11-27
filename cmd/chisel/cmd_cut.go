@@ -3,10 +3,10 @@ package main
 import (
 	"github.com/jessevdk/go-flags"
 
-	"github.com/canonical/chisel/internal/archive"
-	"github.com/canonical/chisel/internal/cache"
-	"github.com/canonical/chisel/internal/setup"
-	"github.com/canonical/chisel/internal/slicer"
+	"github.com/lorenzo-medici/chisel/internal/archive"
+	"github.com/lorenzo-medici/chisel/internal/cache"
+	"github.com/lorenzo-medici/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/slicer"
 )
 
 var shortCutHelp = "Cut a tree with selected slices"

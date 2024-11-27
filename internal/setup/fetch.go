@@ -13,8 +13,8 @@ import (
 
 	"github.com/juju/fslock"
 
-	"github.com/canonical/chisel/internal/cache"
-	"github.com/canonical/chisel/internal/fsutil"
+	"github.com/lorenzo-medici/chisel/internal/cache"
+	"github.com/lorenzo-medici/chisel/internal/fsutil"
 )
 
 type FetchOptions struct {

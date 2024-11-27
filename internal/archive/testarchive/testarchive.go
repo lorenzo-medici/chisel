@@ -11,7 +11,7 @@ import (
 	"golang.org/x/crypto/openpgp/clearsign"
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/canonical/chisel/internal/testutil"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 )
 
 type Item interface {

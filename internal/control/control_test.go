@@ -1,7 +1,7 @@
 package control_test
 
 import (
-	"github.com/canonical/chisel/internal/control"
+	"github.com/lorenzo-medici/chisel/internal/control"
 
 	"bytes"
 	"os"

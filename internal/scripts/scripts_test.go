@@ -8,9 +8,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/canonical/chisel/internal/fsutil"
-	"github.com/canonical/chisel/internal/scripts"
-	"github.com/canonical/chisel/internal/testutil"
+	"github.com/lorenzo-medici/chisel/internal/fsutil"
+	"github.com/lorenzo-medici/chisel/internal/scripts"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 )
 
 type scriptsTest struct {

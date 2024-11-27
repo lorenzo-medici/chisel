@@ -10,9 +10,9 @@ import (
 	"golang.org/x/crypto/openpgp/packet"
 	"gopkg.in/yaml.v3"
 
-	"github.com/canonical/chisel/internal/archive"
-	"github.com/canonical/chisel/internal/deb"
-	"github.com/canonical/chisel/internal/pgputil"
+	"github.com/lorenzo-medici/chisel/internal/archive"
+	"github.com/lorenzo-medici/chisel/internal/deb"
+	"github.com/lorenzo-medici/chisel/internal/pgputil"
 )
 
 func (p *Package) MarshalYAML() (interface{}, error) {
@@ -153,7 +153,7 @@ func parseRelease(baseDir, filePath string, data []byte) (*Release, error) {
 
 	yamlVar := yamlRelease{}
 	dec := yaml.NewDecoder(bytes.NewBuffer(data))
-	dec.KnownFields(false)
+	dec.KnownFields(true)
 	err := dec.Decode(&yamlVar)
 	if err != nil {
 		return nil, fmt.Errorf("%s: cannot parse release definition: %v", fileName, err)
@@ -274,7 +274,7 @@ func parsePackage(baseDir, pkgName, pkgPath string, data []byte) (*Package, erro
 
 	yamlPkg := yamlPackage{}
 	dec := yaml.NewDecoder(bytes.NewBuffer(data))
-	dec.KnownFields(false)
+	dec.KnownFields(true)
 	err := dec.Decode(&yamlPkg)
 	if err != nil {
 		return nil, fmt.Errorf("cannot parse package %q slice definitions: %v", pkgName, err)

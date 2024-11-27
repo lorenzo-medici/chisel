@@ -5,7 +5,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/canonical/chisel/internal/jsonwall"
+	"github.com/lorenzo-medici/chisel/internal/jsonwall"
 )
 
 func Test(t *testing.T) { TestingT(t) }

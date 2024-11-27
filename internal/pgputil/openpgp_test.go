@@ -4,8 +4,8 @@ import (
 	"golang.org/x/crypto/openpgp/packet"
 	. "gopkg.in/check.v1"
 
-	"github.com/canonical/chisel/internal/pgputil"
-	"github.com/canonical/chisel/internal/testutil"
+	"github.com/lorenzo-medici/chisel/internal/pgputil"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/canonical/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/setup"
 )
 
 // TODO These need testing

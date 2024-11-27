@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/canonical/chisel/internal/cache"
+	"github.com/lorenzo-medici/chisel/internal/cache"
 )
 
 const (

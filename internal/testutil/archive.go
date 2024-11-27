@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/canonical/chisel/internal/archive"
+	"github.com/lorenzo-medici/chisel/internal/archive"
 )
 
 type TestArchive struct {

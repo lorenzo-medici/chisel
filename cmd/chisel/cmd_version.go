@@ -5,7 +5,7 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	"github.com/canonical/chisel/cmd"
+	"github.com/lorenzo-medici/chisel/cmd"
 )
 
 var shortVersionHelp = "Show version details"

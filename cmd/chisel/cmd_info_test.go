@@ -7,8 +7,8 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	chisel "github.com/canonical/chisel/cmd/chisel"
-	"github.com/canonical/chisel/internal/testutil"
+	chisel "github.com/lorenzo-medici/chisel/cmd/chisel"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 )
 
 type infoTest struct {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/canonical/chisel/internal/fsutil"
+	"github.com/lorenzo-medici/chisel/internal/fsutil"
 )
 
 func TreeDump(dir string) map[string]string {

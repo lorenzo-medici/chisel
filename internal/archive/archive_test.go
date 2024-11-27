@@ -16,10 +16,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/canonical/chisel/internal/archive"
-	"github.com/canonical/chisel/internal/archive/testarchive"
-	"github.com/canonical/chisel/internal/deb"
-	"github.com/canonical/chisel/internal/testutil"
+	"github.com/lorenzo-medici/chisel/internal/archive"
+	"github.com/lorenzo-medici/chisel/internal/archive/testarchive"
+	"github.com/lorenzo-medici/chisel/internal/deb"
+	"github.com/lorenzo-medici/chisel/internal/testutil"
 )
 
 type httpSuite struct {

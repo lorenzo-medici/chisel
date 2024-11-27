@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/canonical/chisel/internal/cache"
-	"github.com/canonical/chisel/internal/control"
-	"github.com/canonical/chisel/internal/deb"
-	"github.com/canonical/chisel/internal/pgputil"
+	"github.com/lorenzo-medici/chisel/internal/cache"
+	"github.com/lorenzo-medici/chisel/internal/control"
+	"github.com/lorenzo-medici/chisel/internal/deb"
+	"github.com/lorenzo-medici/chisel/internal/pgputil"
 )
 
 type Archive interface {

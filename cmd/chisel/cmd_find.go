@@ -8,8 +8,8 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	"github.com/canonical/chisel/internal/setup"
-	"github.com/canonical/chisel/internal/strdist"
+	"github.com/lorenzo-medici/chisel/internal/setup"
+	"github.com/lorenzo-medici/chisel/internal/strdist"
 )
 
 var shortFindHelp = "Find existing slices"

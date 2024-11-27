@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/canonical/chisel/internal/strdist"
+	"github.com/lorenzo-medici/chisel/internal/strdist"
 )
 
 // Release is a collection of package slices targeting a particular
